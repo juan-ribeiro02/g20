@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1300px){
+    .corpo{
+        width: 60%;
+    }
+
+    .midia img{
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .corpo{
+        width: 70%;
+    }
+    
+    .midia img{
+        height: 300px;
+    }
+
+    .foto{
+        height: 350px;
+        width: 400px;
+    }
+
+    .midia video{
+        height: 300px;
+        width: auto;
+        
+    }
+}
+
+@media only screen and (max-width: 730px){
+    .corpo{
+        width: 70%;
+    }
+    
+    .midia img{
+        height: 250px;
+    }
+
+    .foto{
+        height: 300px;
+        width: 350px;
+    }
+
+    .midia video{
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .corpo{
+        width: 75%;
+        font-size: 15px;
+    }
+
+    header h1{
+        font-size: 25px;
+    }
+    
+    .midia img{
+        height: 250px;
+    }
+
+    .foto{
+        height: 300px;
+        width: 350px;
+    }
+
+    .midia video{
+        height: 220px;
+        width: auto;
+    }
+}

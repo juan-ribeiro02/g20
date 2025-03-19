@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: rgb(31, 75, 194);
+    height: 130px;
+}
+
+header h1{
+    padding-top: 10px;
+    text-align: center;
+    color:aliceblue;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    color:aliceblue;
+    text-align: center;
+    font-size: 12px;
+}
+
+nav td{
+    padding: 10px;
+    text-align: center;
+    border: none;
+}
+
+footer{
+    background-color: rgb(31, 75, 194);
+    color: aliceblue;
+    min-width: 100vh;
+    height: 50px;
+}
+
+footer h1, a{
+    text-decoration: none;
+    color: aliceblue;font-size: 20px;
+    text-align: center;
+}
+
+.caixa{
+    background-color: rgb(200, 255, 252);
+    height: 120px;
+    width: 135px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.caixa img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.corpo {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    text-align: justify;
+}
+
+p, h1{
+    text-align: center;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.midia{
+    text-align: center;
+}
+
+.midia video{
+    margin-bottom: 30px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 400px;
+    width: 500px;
+}
+
+/* .foto img{
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.foto img:hover{
+    height: 400px;
+    width: 600px;
+} */
+
+.tabela table, tr, td{
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: black;
+}
+
+.tabela tr:nth-child(even){background-color: #f2f2f2;}
+
+.tabela th{
+    background-color: rgb(31, 75, 194);
+    color: aliceblue;
+}
+
+.tabela th, td{
+    text-align: left;
+    padding: 10px;
+    padding-right: 100px;
+}
+
+.tabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content:left ;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(31, 75, 194);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.conteiner h2{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+form input, textarea{
+    cursor: pointer;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 5px;
+}
+
+
+textarea{
+    height: 100px;
+}
+
+input[type="text"]:focus{
+    border-color: black;
+    border: 3px;
+    background-color: rgb(208, 208, 238);
+}
+
+input[type="submit"]{
+    width: 35%;
+    margin-bottom: 30px;
+}
