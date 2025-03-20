@@ -69,7 +69,12 @@
     }
 
     .midia video{
-        height: 220px;
+        height: 180px;
         width: auto;
+    }
+
+    .conteiner{
+        height: 400px;
+        width: 300px;
     }
 }
